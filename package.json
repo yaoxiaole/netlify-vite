@@ -9,12 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.37",
-    "airwallex-payment-elements": "^1.45.0",
+    "@agora-js/report": "4.20.0",
     "@vueuse/core": "^10.7.2",
     "agora-rtc-sdk-ng": "4.20.0",
     "agora-rtm": "2.1.10",
-    "@agora-js/report": "4.20.0",
+    "airwallex-payment-elements": "^1.45.0",
     "ali-oss": "^6.18.0",
     "axios": "^1.6.7",
     "clipboard": "^2.0.11",
@@ -23,12 +22,14 @@
     "lodash-es": "^4.17.21",
     "moment-timezone": "^0.5.45",
     "pinia": "^2.1.7",
-    "pinia-plugin-persistedstate": "^3.2.1"
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vue": "^3.4.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
     "typescript": "^5.5.3",
     "vite": "^5.4.1",
+    "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^2.0.29"
   }
 }

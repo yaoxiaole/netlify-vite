@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import AgoraRTC from 'agora-rtc-sdk-ng'
+import AgoraRTM from 'agora-rtm'
+import moment from 'moment-timezone'
+import { useAsyncQueue } from '@vueuse/core'
+console.warn(AgoraRTC, AgoraRTM, moment, useAsyncQueue)
 </script>
 
 <template>
