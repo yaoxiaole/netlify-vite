@@ -27,8 +27,7 @@ build: {
     output: {
       manualChunks: {
         // 拆分代码，这个就是分包，配置完后自动按需加载，现在还比不上webpack的splitchunk，不过也能用了。
-        vue: ['vue', 'vue-router', 'pinia'],
-        vant: ['vant'],
+        vue: ['vue', 'pinia'],
         nim: ['nim-web-sdk-ng'],
         AgoraRTC: ['agora-rtc-sdk-ng'],
         AgoraRTM: ['agora-rtm'],
