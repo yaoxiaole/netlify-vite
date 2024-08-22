@@ -16,7 +16,7 @@ console.warn(AgoraRTC, AgoraRTM, moment, useAsyncQueue)
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue + dev" />
+  <HelloWorld msg="Vite + Vue + dev789" />
 </template>
 
 <style scoped>
